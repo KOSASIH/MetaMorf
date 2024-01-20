@@ -4,7 +4,7 @@ Super advanced high-tech which controls and develops all types of cutting-edge t
 # Contents 
 
 - [Description](#description)
-- [Vision Anda Mission](#vision-and-mission) 
+- [Vision And Mission](#vision-and-mission) 
 
 # Description 
 
