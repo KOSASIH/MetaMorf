@@ -6,7 +6,8 @@ Super advanced high-tech which controls and develops all types of cutting-edge t
 - [Description](#description)
 - [Vision And Mission](#vision-and-mission)
 - [Our Technologies](#our-technologies)
-- [Problems To Solve](#problems-to-solve) 
+- [Problems To Solve](#problems-to-solve)
+- [Contributor Guide](#contributor-guide) 
 
 # Description 
 
@@ -61,3 +62,55 @@ Metamorf Technologies addresses critical challenges across various domains, incl
 8. **Inequality and Accessibility:** Focusing on reducing technological disparities and enhancing accessibility to ensure the benefits of advancements are inclusive and equitable.
 
 Metamorf Technologies is dedicated to solving these challenges, driving positive change through innovative solutions that positively impact individuals, communities, and the world at large.
+
+# Contributor Guide 
+
+**Metamorf Technologies Git Repository Contributor Guide**
+
+**Welcome to Metamorf Technologies!**
+
+Thank you for your interest in contributing to our projects. Below is a guide to help you become a valuable contributor to our Git repositories.
+
+**Getting Started:**
+
+1. **Fork the Repository:**
+   - Fork the desired repository on GitHub to your account.
+
+2. **Clone the Repository:**
+   - Clone your forked repository to your local machine using `git clone [your-fork-url]`.
+
+3. **Create a Branch:**
+   - Create a new branch for your contributions using `git checkout -b [branch-name]`.
+
+4. **Make Changes:**
+   - Make necessary changes or additions to the codebase, ensuring adherence to coding standards.
+
+5. **Commit Changes:**
+   - Commit your changes with clear and concise commit messages. Use `git commit -m "Your message here"`.
+
+6. **Sync with Upstream:**
+   - Periodically sync your fork with the upstream repository to stay updated. Use `git fetch upstream` and `git merge upstream/main`.
+
+**Submitting Changes:**
+
+7. **Push Changes:**
+   - Push your branch to your fork on GitHub with `git push origin [branch-name]`.
+
+8. **Create Pull Request:**
+   - Go to your fork on GitHub and create a Pull Request (PR) from your branch to the main repository.
+
+9. **Describe Your Changes:**
+   - Provide a detailed description of your changes in the PR, highlighting the purpose and impact of your contributions.
+
+10. **Review Process:**
+    - Be open to feedback and make necessary adjustments based on the review process. Collaborate with maintainers and other contributors.
+
+**Code of Conduct:**
+
+- Adhere to our Code of Conduct at all times. Respectful and inclusive communication is key to fostering a positive and collaborative environment.
+
+**Thank you for your Contribution!**
+
+Your contributions play a vital role in advancing technology at Metamorf. We appreciate your dedication to making a positive impact. If you have any questions or need assistance, feel free to reach out to our maintainers.
+
+Happy coding!
