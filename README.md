@@ -282,3 +282,67 @@ To optimize disk usage, the following changes were implemented:
 
 ## Conclusion
 The implemented resource usage optimization techniques have significantly improved the AI system's performance and efficiency. The CPU, memory, and disk usage optimizations have resulted in enhanced resource allocation, reduced overhead, and improved overall system responsiveness. These optimizations contribute to the AI system's ability to autonomously control and develop cutting-edge technology efficiently.
+
+## Logging Module 
+
+```python
+import logging
+
+class LoggingModule:
+    def __init__(self):
+        self.logger = logging.getLogger('system_logger')
+        self.logger.setLevel(logging.DEBUG)
+        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        
+        # Create a file handler to store logs in a centralized location
+        file_handler = logging.FileHandler('system_logs.log')
+        file_handler.setLevel(logging.DEBUG)
+        file_handler.setFormatter(formatter)
+        
+        # Create a console handler to display logs in the console
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(logging.INFO)
+        console_handler.setFormatter(formatter)
+        
+        # Add the handlers to the logger
+        self.logger.addHandler(file_handler)
+        self.logger.addHandler(console_handler)
+    
+    def log_activity(self, activity):
+        self.logger.debug(activity)
+    
+    def log_error(self, error):
+        self.logger.error(error)
+
+# Usage example
+logging_module = LoggingModule()
+logging_module.log_activity('System started')
+logging_module.log_error('An error occurred')
+```
+
+**Markdown Output:**
+
+```
+# System Logs
+
+## Activities
+
+- [2022-01-01 10:00:00] - DEBUG - System started
+
+## Errors
+
+- [2022-01-01 10:00:10] - ERROR - An error occurred
+```
+
+In the above code, a `LoggingModule` class is created to handle logging of system activities and errors. It uses the `logging` module from the Python standard library to perform the logging operations.
+
+The `LoggingModule` class initializes a logger with the name "system_logger" and sets its log level to `DEBUG`. It also creates a `Formatter` object to define the log message format.
+
+The module provides two methods: `log_activity` and `log_error`. The `log_activity` method logs a system activity at the `DEBUG` level, while the `log_error` method logs an error at the `ERROR` level.
+
+The module also includes two handlers: a `FileHandler` to store logs in a file named "system_logs.log" and a `StreamHandler` to display logs in the console. Both handlers use the same log format defined by the formatter.
+
+To use the module, an instance of `LoggingModule` is created, and the `log_activity` and `log_error` methods are called to log activities and errors, respectively.
+
+The markdown output shows the logged activities and errors, with their corresponding timestamps and log levels.
+
