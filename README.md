@@ -77,7 +77,7 @@ Thank you for your interest in contributing to our projects. Below is a guide to
    - Fork the desired repository on GitHub to your account.
 
 2. **Clone the Repository:**
-   - Clone your forked repository to your local machine using `git clone [your-fork-url]`.
+   - Clone your forked repository to your local machine using `git clone [https://github.com/KOSASIH/MetaMorf]`.
 
 3. **Create a Branch:**
    - Create a new branch for your contributions using `git checkout -b [branch-name]`.
